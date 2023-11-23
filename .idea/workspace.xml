@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="002a6179-3ef4-4827-bc4b-9f93b385c8b4" name="Changes" comment="Criação do docker-compose.yml">
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/controller/RestauranteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarPratoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/LocalizacaoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/PratoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/RestauranteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/endpoint/RestauranteEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/mapper/PratoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/mapper/RestauranteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/model/Localizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/model/Prato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/model/Restaurante.java" afterDir="false" />
+    <list default="true" id="002a6179-3ef4-4827-bc4b-9f93b385c8b4" name="Changes" comment="Feito o Crud do projeto">
+      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/annotations/ValidDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/annotations/ValidDTOValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +30,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cadastro" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cadastro" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="cadastro" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YXTYmIvGDj6scq0yL4zz4eVpwD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "cadastro",
     "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,16 +82,36 @@
       <command value="mvn clean install" />
     </option>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="QuarkusRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Quarkus.cadastro">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IFood" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IFood" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cadastro" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="cadastro" />
-      <cadastro>
+      <QsMavenRunConfiguration>
         <MavenSettings>
           <option name="myGeneralSettings" />
           <option name="myRunnerSettings" />
           <option name="myRunnerParameters">
             <MavenRunnerParameters>
-              <option name="cmdOptions" value="" />
+              <option name="cmdOptions" />
               <option name="profiles">
                 <set />
               </option>
@@ -108,8 +133,8 @@
           </option>
         </MavenSettings>
         <targetMavenLocalRepo />
-        <emulateTerminal>false</emulateTerminal>
-      </cadastro>
+        <emulateTerminal>true</emulateTerminal>
+      </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,7 +225,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700670977487</updated>
-      <workItem from="1700670978808" duration="11677000" />
+      <workItem from="1700670978808" duration="13043000" />
+      <workItem from="1700757002630" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="Criação dos módulos do projeto">
       <option name="closed" value="true" />
@@ -218,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700673218590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feito o Crud do projeto">
+      <option name="closed" value="true" />
+      <created>1700682799348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700682799348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feito o Crud do projeto">
+      <option name="closed" value="true" />
+      <created>1700682832784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700682832784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,17 +292,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação dos módulos do projeto" />
     <MESSAGE value="Criação do docker-compose.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do docker-compose.yml" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cadastro/src/main/java/controller/RestauranteController.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Feito o Crud do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feito o Crud do projeto" />
   </component>
 </project>
