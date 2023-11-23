@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="002a6179-3ef4-4827-bc4b-9f93b385c8b4" name="Changes" comment="Feito o Crud do projeto">
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/annotations/ValidDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/annotations/ValidDTOValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="002a6179-3ef4-4827-bc4b-9f93b385c8b4" name="Changes" comment="Adiconada validação de cnpj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro/src/main/java/endpoint/RestauranteEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/java/endpoint/RestauranteEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +30,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="cadastro" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cadastro" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "cadastro",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,13 +99,13 @@
     </configuration>
     <configuration name="cadastro" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="cadastro" />
-      <QsMavenRunConfiguration>
+      <cadastro>
         <MavenSettings>
           <option name="myGeneralSettings" />
           <option name="myRunnerSettings" />
           <option name="myRunnerParameters">
             <MavenRunnerParameters>
-              <option name="cmdOptions" />
+              <option name="cmdOptions" value="" />
               <option name="profiles">
                 <set />
               </option>
@@ -133,8 +127,8 @@
           </option>
         </MavenSettings>
         <targetMavenLocalRepo />
-        <emulateTerminal>true</emulateTerminal>
-      </QsMavenRunConfiguration>
+        <emulateTerminal>false</emulateTerminal>
+      </cadastro>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700670977487</updated>
       <workItem from="1700670978808" duration="13043000" />
-      <workItem from="1700757002630" duration="3230000" />
+      <workItem from="1700757002630" duration="12202000" />
     </task>
     <task id="LOCAL-00001" summary="Criação dos módulos do projeto">
       <option name="closed" value="true" />
@@ -260,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700682832784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adiconada validação de cnpj">
+      <option name="closed" value="true" />
+      <created>1700760913803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700760913803</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +295,7 @@
     <MESSAGE value="Criação dos módulos do projeto" />
     <MESSAGE value="Criação do docker-compose.yml" />
     <MESSAGE value="Feito o Crud do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito o Crud do projeto" />
+    <MESSAGE value="Adiconada validação de cnpj" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiconada validação de cnpj" />
   </component>
 </project>
