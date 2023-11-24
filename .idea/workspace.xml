@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002a6179-3ef4-4827-bc4b-9f93b385c8b4" name="Changes" comment="Feito o Crud do projeto">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro/src/main/java/dto/AdicionarRestauranteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2YXTYmIvGDj6scq0yL4zz4eVpwD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +53,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
+    "last_opened_file_path": "/home/ferps53/Documents/Prog/IfoodBackend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,120 +75,12 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Quarkus.cadastro">
-    <configuration name="cadastro" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="cadastro" type="QuarkusRunConfiguration" factoryName="QuarkusRunConfiguration" activateToolWindowBeforeRun="false">
       <module name="cadastro" />
-      <cadastro>
-        <MavenSettings>
-          <option name="myGeneralSettings" />
-          <option name="myRunnerSettings" />
-          <option name="myRunnerParameters">
-            <MavenRunnerParameters>
-              <option name="cmdOptions" value="" />
-              <option name="profiles">
-                <set />
-              </option>
-              <option name="goals">
-                <list>
-                  <option value="quarkus:dev" />
-                </list>
-              </option>
-              <option name="pomFileName" value="pom.xml" />
-              <option name="profilesMap">
-                <map />
-              </option>
-              <option name="projectsCmdOptionValues">
-                <list />
-              </option>
-              <option name="resolveToWorkspace" value="false" />
-              <option name="workingDirPath" value="$PROJECT_DIR$/cadastro" />
-            </MavenRunnerParameters>
-          </option>
-        </MavenSettings>
-        <targetMavenLocalRepo />
-        <emulateTerminal>false</emulateTerminal>
-      </cadastro>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="profile" />
+      <method v="2" />
     </configuration>
-    <configuration name="marketplace" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
-      <module name="marketplace" />
-      <QsMavenRunConfiguration>
-        <MavenSettings>
-          <option name="myGeneralSettings" />
-          <option name="myRunnerSettings" />
-          <option name="myRunnerParameters">
-            <MavenRunnerParameters>
-              <option name="cmdOptions" />
-              <option name="profiles">
-                <set />
-              </option>
-              <option name="goals">
-                <list>
-                  <option value="quarkus:dev" />
-                </list>
-              </option>
-              <option name="pomFileName" value="pom.xml" />
-              <option name="profilesMap">
-                <map />
-              </option>
-              <option name="projectsCmdOptionValues">
-                <list />
-              </option>
-              <option name="resolveToWorkspace" value="false" />
-              <option name="workingDirPath" value="$PROJECT_DIR$/marketplace" />
-            </MavenRunnerParameters>
-          </option>
-        </MavenSettings>
-        <targetMavenLocalRepo />
-        <emulateTerminal>true</emulateTerminal>
-      </QsMavenRunConfiguration>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pedido" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
-      <module name="pedido" />
-      <QsMavenRunConfiguration>
-        <MavenSettings>
-          <option name="myGeneralSettings" />
-          <option name="myRunnerSettings" />
-          <option name="myRunnerParameters">
-            <MavenRunnerParameters>
-              <option name="cmdOptions" />
-              <option name="profiles">
-                <set />
-              </option>
-              <option name="goals">
-                <list>
-                  <option value="quarkus:dev" />
-                </list>
-              </option>
-              <option name="pomFileName" value="pom.xml" />
-              <option name="profilesMap">
-                <map />
-              </option>
-              <option name="projectsCmdOptionValues">
-                <list />
-              </option>
-              <option name="resolveToWorkspace" value="false" />
-              <option name="workingDirPath" value="$PROJECT_DIR$/pedido" />
-            </MavenRunnerParameters>
-          </option>
-        </MavenSettings>
-        <targetMavenLocalRepo />
-        <emulateTerminal>true</emulateTerminal>
-      </QsMavenRunConfiguration>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Quarkus.cadastro" />
-      <item itemvalue="Quarkus.marketplace" />
-      <item itemvalue="Quarkus.pedido" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="QuarkusRunConfiguration" factoryName="QuarkusRunConfiguration" editBeforeRun="true" activateToolWindowBeforeRun="false">
+    <module name="cadastro" />
+    <option name="profile" />
+    <method v="2" />
+  </configuration>
+</component>
